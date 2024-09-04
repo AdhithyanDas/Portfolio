@@ -1,0 +1,27 @@
+.card-project-body {
+  position: absolute;
+  /* background: rgba(45, 22, 22, 0.295); */
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -100%;
+  transition: 1s;
+}
+
+.card-project {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-project:hover .card-project-body {
+  right: 0;
+}
+
+.btn-project {
+  min-width: 14vh;
+  min-height: 5vh;
+  font-size: smaller;
+}
