@@ -4,7 +4,7 @@ import './Skills.css'
 function Skills() {
     return (
         <>
-            <h1 className='text-center mt-5 fw-bold' id='skills'>Skills</h1>
+            <h1 className='text-center mt-5 fw-bold' id='skills' style={{ scrollMarginTop: '60px' }}>Skills</h1>
             <div className='d-flex justify-content-center'>
                 <div className='d-flex flex-wrap mt-4 justify-content-center gap-4 w-50 text-center '>
                     <div style={{ width: "6rem" }} className='skill'>

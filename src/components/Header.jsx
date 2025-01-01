@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-white container-fluid position-fixed" style={{ minHeight: "40px", zIndex: '1' }}>
+            <nav className="navbar navbar-expand-lg bg-white container-fluid fixed-top" style={{ minHeight: "40px", zIndex: '1' }}>
                 <div className="container">
                     <button className="navbar-toggler border-0 text-white me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

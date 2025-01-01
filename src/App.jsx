@@ -8,6 +8,7 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       <Project />
       <Contact />
       <Footer />
+      <Toaster />
     </>
   )
 }

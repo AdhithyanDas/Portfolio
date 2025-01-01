@@ -11,7 +11,7 @@ function Footer() {
               data-mdb-ripple-init
               className="btn text-white btn-floating m-1"
               style={{ background: "#0082ca" }}
-              href="#!"
+              href="https://www.linkedin.com/in/adhithyan-das-k/"
               role="button"
             ><i className="fab fa-linkedin-in"></i
             ></a>
@@ -20,7 +20,7 @@ function Footer() {
               data-mdb-ripple-init
               className="btn text-white btn-floating m-1"
               style={{ background: "#333333" }}
-              href="#!"
+              href="https://github.com/AdhithyanDas/"
               role="button"
             ><i className="fab fa-github"></i
             ></a>
